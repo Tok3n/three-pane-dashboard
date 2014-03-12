@@ -1,0 +1,9 @@
+.model-pane__properties {
+  list-style-type: none;
+  padding-left: 0;
+  -webkit-padding-start: 0; }
+
+.model-pane {
+  flex: 3;
+  background: white;
+  color: #1f2d58; }

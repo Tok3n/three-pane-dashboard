@@ -1,0 +1,126 @@
+.navbar {
+  height: 4rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.75); }
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box; }
+
+body,
+html {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Helvetica Neue", helvetica-neue, Helvetica, sans-serif; }
+
+.dashboard {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh; }
+  .dashboard .dash-pane {
+    padding: 1rem; }
+
+.nav-pane__items, .collection-pane__items, .model-pane__properties {
+  list-style-type: none;
+  padding-left: 0;
+  -webkit-padding-start: 0; }
+
+.nav-pane__link, .collection-pane__link {
+  text-decoration: none;
+  color: inherit; }
+  .nav-pane__link:hover, .collection-pane__link:hover {
+    text-decoration: none;
+    color: inherit; }
+
+.nav-pane__link, .collection-pane__link {
+  display: block;
+  padding: 0.5rem; }
+
+.nav-pane {
+  flex: 1;
+  color: white;
+  background: #1f2d58;
+  z-index: 100;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.75); }
+
+.nav-pane__item {
+  transition: background 0.2s ease-in-out; }
+  .nav-pane__item:hover {
+    background: rgba(255, 255, 255, 0.25); }
+
+.nav-pane__items, .collection-pane__items, .model-pane__properties {
+  list-style-type: none;
+  padding-left: 0;
+  -webkit-padding-start: 0; }
+
+.nav-pane__link, .collection-pane__link {
+  text-decoration: none;
+  color: inherit; }
+  .nav-pane__link:hover, .collection-pane__link:hover {
+    text-decoration: none;
+    color: inherit; }
+
+.nav-pane__link, .collection-pane__link {
+  display: block;
+  padding: 0.5rem; }
+
+.collection-pane {
+  flex: 1;
+  color: #333333;
+  background: #eeeeee;
+  z-index: 80;
+  position: relative;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5); }
+
+.collection-pane__single {
+  position: absolute;
+  z-index: 90;
+  left: -100%;
+  top: 1rem;
+  transition: all 0.25s ease-in-out; }
+
+.collection-pane__single.active {
+  left: 1rem; }
+
+.collection-pane__item {
+  transition: background 0.2s ease-in-out; }
+  .collection-pane__item:hover {
+    background: rgba(0, 0, 0, 0.25); }
+
+.nav-pane__items, .collection-pane__items, .model-pane__properties {
+  list-style-type: none;
+  padding-left: 0;
+  -webkit-padding-start: 0; }
+
+.nav-pane__link, .collection-pane__link {
+  text-decoration: none;
+  color: inherit; }
+  .nav-pane__link:hover, .collection-pane__link:hover {
+    text-decoration: none;
+    color: inherit; }
+
+.nav-pane__link, .collection-pane__link {
+  display: block;
+  padding: 0.5rem; }
+
+.model-pane {
+  flex: 3;
+  background: white;
+  color: #1f2d58;
+  z-index: 60;
+  position: relative; }
+
+.model-pane__single {
+  position: absolute;
+  z-index: 70;
+  left: -100%;
+  top: 1rem;
+  transition: all 0.25s ease-in-out; }
+
+.model-pane__single.active {
+  left: 1rem; }

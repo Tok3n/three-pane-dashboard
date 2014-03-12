@@ -1,0 +1,80 @@
+{
+  "accountData": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "gender": "male",
+    "email": "johndoe@webapps.com",
+    "accountPlan": "developer"
+  },
+  "categories": [
+    {
+      "category": "device",
+      "categoryPlural": "devices",
+      "models": [
+        {
+          "identifier": "iPhone",
+          "type": "smartphone",
+          "dateAdded": "01/01/2014",
+          "icon": "icon-phone"
+        }, {
+          "identifier": "Surface",
+          "type": "tablet",
+          "dateAdded": "02/02/2014",
+          "icon": "icon-tablet"
+        }, {
+          "identifier": "MacBook Air",
+          "type": "laptop",
+          "dateAdded": "03/03/2014",
+          "icon": "icon-laptop"
+        }
+      ]
+    }, {
+      "category": "phone",
+      "categoryPlural": "phones",
+      "models": [
+        {
+          "identifier": "My cell",
+          "number": "510-593-7257"
+        }, {
+          "identifier": "Office",
+          "number": "510-663-3808"
+        }
+      ]
+    }, {
+      "category": "app",
+      "categoryPlural": "apps",
+      "models": [
+        {
+          "identifier": "WebApp1",
+          "status": "Active",
+          "apiKey": "e871df97-29c9-497b-87ae-040369737501",
+          "secretKey": "8869c644-62a5-4a27-95f5-a44af2aaf03f",
+          "URL": "http://webapp1.com",
+          "callback": "http://webapp1.com/tok3n-callback"
+        }, {
+          "identifier": "WebApp2",
+          "status": "Active",
+          "apiKey": "e871df97-29c9-497b-87ae-040369737501",
+          "secretKey": "8869c644-62a5-4a27-95f5-a44af2aaf03f",
+          "URL": "http://webapp2.com",
+          "callback": "http://webapp2.com/tok3n-callback"
+        }, {
+          "identifier": "WebApp3",
+          "status": "Halted",
+          "apiKey": "e871df97-29c9-497b-87ae-040369737501",
+          "secretKey": "8869c644-62a5-4a27-95f5-a44af2aaf03f",
+          "URL": "http://webapp3.com",
+          "callback": "http://webapp2.com/tok3n-callback"       
+        }
+      ]
+    }, {
+      "category": "integration",
+      "categoryPlural": "integrations",
+      "models" : []
+    }, {
+      "category": "setting",
+      "categoryPlural": "settings",
+      "models": []
+    }
+  ]
+}

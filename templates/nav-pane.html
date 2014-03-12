@@ -1,0 +1,10 @@
+<h2 class="nav-pane__title">Sections</h2>
+<ul class="nav-pane__items">
+  {{#each categories}}
+    <li class="nav-pane__item">
+      <a class="nav-pane__link" href="javascript:void(0)." data-link-target="{{this.id}}">
+        {{this.categoryPlural}}
+      </a>
+    </li>
+  {{/each}}
+</ul>

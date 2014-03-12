@@ -1,0 +1,21 @@
+@import placeholders
+
+.model-pane
+  flex: 3
+  background: #fff
+  color: #1F2D58
+  z-index: 60
+  position: relative 
+
+.model-pane__single
+  position: absolute
+  z-index: 70
+  left: -100%
+  top: 1rem
+  transition: all .25s ease-in-out
+
+.model-pane__single.active
+  left: 1rem
+
+.model-pane__properties
+  @extend %unstyled-list

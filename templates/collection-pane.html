@@ -1,0 +1,18 @@
+<div class="collection-pane__single" id="{{id}}">
+  <h3 class="collection-pane__title">{{ categoryPlural }}</h3>
+  <ul class="collection-pane__items">
+    {{#each models}}
+      <li class="collection-pane__item">
+        <a class="collection-pane__link" href="javascript:void(0)." data-link-target="{{ this.id }}">
+          {{ this.identifier }}
+        </a>
+      </li>
+    {{/each}}
+    <li class="collection-pane__item add-item">
+      <a class="collection-pane__link" href="javascript:void(0)." id="add-new-{{ category }}">
+        <i class="icon-add"></i>
+        Add New {{ category }}
+      </a>
+    </li>
+  </ul>
+</div>

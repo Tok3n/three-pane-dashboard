@@ -1,0 +1,20 @@
+@import placeholders
+
+.nav-pane
+  flex: 1
+  color: white
+  background: #1F2D58
+  z-index: 100
+  box-shadow: 0 0 .5rem rgba(0, 0, 0, .75)
+
+.nav-pane__items
+  @extend %unstyled-list
+
+.nav-pane__item
+  transition: background .2s ease-in-out
+  &:hover
+    background: rgba( 255, 255, 255, .25 )
+
+.nav-pane__link
+  @extend %unstyled-link
+  @extend %block-link

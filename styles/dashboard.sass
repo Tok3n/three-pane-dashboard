@@ -1,0 +1,25 @@
+*,
+*:before,
+*:after
+  box-sizing: border-box
+
+body,
+html
+  margin: 0
+  padding: 0
+
+body
+  font-family: "Helvetica Neue", helvetica-neue, Helvetica, sans-serif
+
+.dashboard
+  display: flex
+  flex-direction: row
+  min-height: 100vh
+
+  .dash-pane
+    padding: 1rem
+
+@import "nav-pane"
+@import "collection-pane"
+@import "model-pane"
+
