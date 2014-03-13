@@ -1,0 +1,3 @@
+[submodule "jquery.promise-transitions"]
+	path = jquery.promise-transitions
+	url = https://github.com/nickb1080/jquery.promise-transitions.git
